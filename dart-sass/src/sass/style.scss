@@ -14,7 +14,6 @@ body {
 
 /* Section "food" */
 .food {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,9 +70,7 @@ body {
 
 
 /* Main */
-.section title {
-  
-}
+
 
 
 
@@ -85,7 +82,6 @@ body {
     justify-content: left;
     align-items: stretch;
     align-content: stretch;
-    width: 100% ;
     padding: 20px;
 }
 
@@ -133,7 +129,7 @@ body {
 
 
 .fonctionnementbutton:hover {
-    var(--filter-bg-color);background-color: #f6f6f6
+    background-color: #f6f6f6;
     
 }
 
@@ -144,12 +140,11 @@ body {
 
 /* Section "restaurants" */
 .restaurant {
-    width: 32%;
+    padding: 10px;
 }
 
 
 .restaurants-cards {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
